@@ -16,7 +16,7 @@ enabling the business to take proactive retention actions.
 
 ## 📁 Project Structure
 
-telecomchurn/
+```telecomchurn/
 │
 ├── data/
 │   ├── raw/                      # Raw data files
@@ -39,7 +39,7 @@ telecomchurn/
 ├── run_pipeline.py               # Main script to run the full pipeline
 ├── environment.yml               # Conda environment file (all dependencies here)
 └── README.md                     # Project overview
-
+```
 ---
 
 ## ⚙️ How to Set Up
