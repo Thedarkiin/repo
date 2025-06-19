@@ -5,8 +5,8 @@ from pathlib import Path
 from typing import Tuple
 
 def load_raw_data(raw_dir: Path = Path("data/raw")) -> Tuple[pd.DataFrame, pd.DataFrame]:
-    df_train = pd.read_csv(raw_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2celltrain.csv")
-    df_holdout = pd.read_csv(raw_dir /r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2cellholdout.csv")
+    df_train = pd.read_csv(raw_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2celltrain.csv")  # bdel lpath hna
+    df_holdout = pd.read_csv(raw_dir /r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2cellholdout.csv") # hna
     return df_train, df_holdout
 
 def clean_data(
@@ -36,5 +36,5 @@ def save_clean_data(
     proc_dir: Path = Path("data/processed")
 ) -> None:
     proc_dir.mkdir(parents=True, exist_ok=True)
-    df_train.to_csv(proc_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2celltrain.csv", index=False)
-    df_holdout.to_csv(proc_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2cellholdout.csv", index=False)
+    df_train.to_csv(proc_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2celltrain.csv", index=False)  #bdel path
+    df_holdout.to_csv(proc_dir / r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\raw\cell2cellholdout.csv", index=False) #same

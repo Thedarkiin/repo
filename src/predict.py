@@ -12,9 +12,9 @@ SELECTED = [
 
 def predict(input_csv: Path, model_pkl: Path, output_csv: Path):
     # Convert to absolute paths to avoid relative path issues
-    input_csv = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\processed\holdout_clean.csv")
-    model_pkl = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\models\rf_best.pkl")
-    output_csv = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\predictions\holdout_preds.csv")
+    input_csv = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\processed\holdout_clean.csv")  #bdel path
+    model_pkl = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\models\rf_best.pkl")  # here hadi hiya fin kaytsjl lmodel ila bghina ndiru deployement b snowflake or smg
+    output_csv = Path(r"C:\Users\aserm\OneDrive\Bureau\telecomchurn\data\predictions\holdout_preds.csv") #.
 
     # Check if files exist
     print(f"Absolute path checked: {input_csv.absolute()}")

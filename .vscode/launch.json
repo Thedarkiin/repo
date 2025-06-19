@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Debug TelecomChurn",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "python": "D:\\anaconda3\\envs\\telecomchurn\\python.exe",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "internalConsoleOptions": "neverOpen",
+            "justMyCode": true,
+            "env": {"PYTHONPATH": "${workspaceFolder}"}
+        }
+    ]
+}
