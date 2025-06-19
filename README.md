@@ -46,24 +46,25 @@ enabling the business to take proactive retention actions.
 
 ### 1. Clone the Repository
 
-git clone https://github.com/Thedarkiin/repo.git
+```git clone https://github.com/Thedarkiin/repo.git
 cd telecomchurn
+```
 
 ### 2. Create the Conda Environment
-
+```
 conda env create -f environment.yml
 conda activate telecomchurn
-
+```
 ### 3. (Optional) Install Any Missing Dependencies
-
+```
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🚀 How to Run the Pipeline
-
+```
 python run_pipeline.py
-
+```
 This pipeline performs the following steps:
 
 - Load raw data  
