@@ -5,7 +5,7 @@ This project was developed as a capstone for a final-year project, majoring in D
 
 ---
 
-🎯 Objective
+## 🎯 Objective
 
 Churn prediction is a critical task for telecom companies.  
 Acquiring a new customer can cost up to 7× more than retaining an existing one.  
@@ -14,7 +14,7 @@ enabling the business to take proactive retention actions.
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 telecomchurn/
 │
@@ -42,25 +42,25 @@ telecomchurn/
 
 ---
 
-⚙️ How to Set Up
+## ⚙️ How to Set Up
 
-1. Clone the Repository
+### 1. Clone the Repository
 
 git clone https://github.com/Thedarkiin/repo.git
 cd telecomchurn
 
-2. Create the Conda Environment
+### 2. Create the Conda Environment
 
 conda env create -f environment.yml
 conda activate telecomchurn
 
-3. (Optional) Install Any Missing Dependencies
+### 3. (Optional) Install Any Missing Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-🚀 How to Run the Pipeline
+## 🚀 How to Run the Pipeline
 
 python run_pipeline.py
 
@@ -78,7 +78,7 @@ All outputs are saved in the data/, models/, and reports/figures/ folders.
 
 ---
 
-🔍 Features Used
+## 🔍 Features Used
 
 - Monthly revenue and usage statistics  
 - Call types (e.g., inbound/outbound, dropped)  
@@ -87,7 +87,7 @@ All outputs are saved in the data/, models/, and reports/figures/ folders.
 
 ---
 
-📊 Key Outputs
+## 📊 Key Outputs
 
 - Confusion matrices for each model  
 - ROC curve comparisons  
@@ -96,14 +96,14 @@ All outputs are saved in the data/, models/, and reports/figures/ folders.
 
 ---
 
-📈 Performance Overview
+## 📈 Performance Overview
 
 The best model (Random Forest) was selected based on ROC AUC and precision/recall trade-offs.  
 All evaluations were performed on a held-out test set to ensure unbiased performance metrics.
 
 ---
 
-🧠 What You’ll Learn
+## 🧠 What You’ll Learn
 
 - How to structure a complete machine learning pipeline  
 - How to handle class imbalance using SMOTE  
@@ -113,7 +113,7 @@ All evaluations were performed on a held-out test set to ensure unbiased perform
 
 ---
 
-📌 Notes
+## 📌 Notes
 
 - All data used is synthetic or anonymized (Kaggle, lol).  
 - All scripts follow clean, reproducible engineering standards.
